@@ -78,10 +78,22 @@ Nesta seção, documentamos os testes realizados no NotebookLM para analisar com
 ### 4.3 Prompts Reutilizáveis para Revisão
 
 #### Template 1: Síntese de Conceitos Complexos
-```text
-[PAPEL]: Atue como um professor especializado em Inteligência Artificial.
-[TAREFA]: Explique o conceito de [INSERIR TÓPICO] utilizando as fontes do caderno.
-[FORMATO]: 
-1. Uma definição direta de até 2 frases.
-2. Uma analogia do mundo real para facilitar a compreensão.
-3. 3 pontos de atenção principais em bullet points.
+    [PAPEL]: Atue como um professor especializado em Inteligência Artificial.
+    [TAREFA]: Explique o conceito de [INSERIR TÓPICO] utilizando as fontes do caderno.
+    [FORMATO]: 
+    1. Uma definição direta de até 2 frases.
+    2. Uma analogia do mundo real para facilitar a compreensão.
+    3. 3 pontos de atenção principais em bullet points.
+
+#### Template 2: Resolução de Problemas Passo a Passo (CoT)
+    [CONTEXTO]: Encontrei a seguinte limitação ao usar a IA: [DESCREVER PROBLEMA].
+    [INSTRUÇÃO]: Vamos resolver isso passo a passo:
+    1. Identifique a provável causa no prompt original.
+    2. Proponha 2 abordagens de correção baseadas em boas práticas.
+    3. Reescreva o prompt corrigido com delimitadores claros.
+
+---
+
+## 5. Considerações Finais 🎯
+
+O uso do Google NotebookLM demonstrou o valor da aprendizagem ativa: interagir com as fontes por meio de prompts refinados permite fixar conceitos técnicos com muito mais profundidade do que a leitura passiva. A documentação das "cicatrizes" e o teste de variações comprovam que a clareza e a estrutura do contexto são os pilares fundamentais da engenharia de prompts.
