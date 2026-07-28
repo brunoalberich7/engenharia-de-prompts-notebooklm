@@ -23,7 +23,7 @@ A Engenharia de Prompts emergiu como uma disciplina essencial na era da IA Gener
 
 Para fundamentar a base de conhecimento deste caderno no **Google NotebookLM**, foram selecionadas e carregadas as seguintes 5 fontes:
 
-1. **The Prompt Canvas (PDF):** Framework e guia visual para estruturação estratégica de prompts.
+1. **The Prompt Canvas (PDF)**: Guia prático baseado na literatura para criação de prompts eficazes em Modelos de Linguagem de Grande Escala (LLMs). *(Artigo: "The Prompt Canvas: A Literature-Based Practitioner Guide for Creating Effective Prompts in Large Language Models")*
 2. **Vídeo Explicativo sobre IA / Prompts (YouTube):** Análise prática de conceitos e casos de uso de IA generativa. [Acessar Link](https://www.youtube.com/watch?v=lTI4FyO0ul8)
 3. **IBM Think - O que é Engenharia de Prompts:** Artigo conceitual sobre a importância do prompt na otimização de LLMs empresariais. [Acessar Link](https://www.ibm.com/br-pt/think/topics/prompt-engineering)
 4. **Google Cloud - What is Prompt Engineering:** Guia sobre arquitetura Transformer, contextualização e boas práticas para modelos Gemini/PaLM. [Acessar Link](https://cloud.google.com/discover/what-is-prompt-engineering?hl=pt-BR)
